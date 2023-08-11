@@ -10,6 +10,7 @@ The main purpose of this project is to understand and demonstrate the basic func
 2.	Login: An existing user needs to login to access the website.
 
 3.	Dashboards: Since the website can have 3 types of users, there are 3 different views.
+   
 i.	Admin Dashboard - It is the dashboard of the website administrator who monitors the overall working of the website.
 Functionalities available:
 •	Search By Username
