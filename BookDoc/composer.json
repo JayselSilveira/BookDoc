@@ -1,0 +1,12 @@
+{
+    "name": "vendor/bookdoc",
+    "description": "Used for Forgot Password",
+    "authors": [
+        {
+            "name": "jaysel",
+            "email": "jaysel1234567@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": { }
+}

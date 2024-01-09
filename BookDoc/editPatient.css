@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 40px 50px;
+    padding-right: 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #33a396;
+}
+
+header .logo {
+    color: #000;
+    font-weight: 700;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+header .logo span {
+    color: #fff;
+}
+
+h2{
+    color: #33a396;
+    font-size: 50px;
+    text-align: center;
+}
+
+hr{
+    background-color: #33a396;
+    height: 3px;
+}
+
+.card{
+    background-color: #fff;
+    opacity: 0.9;
+    height: 100%;
+    width: 520px;
+    border: 1px solid lightgrey;
+}
+
+form{
+    text-align: center;
+}
+
+form div p{
+    color: #000;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+input[type="text"]{
+    width: 250px;
+    height: 35px;
+}
+
+input[type="text"], input[type="file"]{
+    outline: none;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    border-bottom-width: 2px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="file"]:focus{
+    border-color: #33a396;
+}
+
+.btn input{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #fff;
+    background: #33a396;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    text-decoration: none;
+}
